@@ -12,7 +12,7 @@ function StoryCard({ name, src, profile }) {
                 objectFit="cover"
             />
             <Image 
-                className="object-cover filter brightness-75 rounded-full lg:rounded-3xl"
+                className="object-cover filter brightness-75 rounded-full lg:rounded-3xl    transition transform hover:scale-105"
                 src={src}
                 layout="fill"
             />
